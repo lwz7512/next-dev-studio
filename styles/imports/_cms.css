@@ -1,0 +1,103 @@
+/* Headings */
+.cms h1, .cms h2, .cms h3, .cms h4, .cms h5, .cms h6 {
+	font-weight: var(--bold-font-weight);
+	line-height: 1.25;
+	margin-bottom: var(--spacing-small);
+}
+
+.cms h1 {
+	font-size: 2.25rem;
+}
+
+.cms h2 {
+	font-size: 1.5rem;
+}
+
+.cms h3 {
+	font-size: 1.25rem;
+}
+
+.cms h4 {
+	font-size: 1rem;;
+}
+
+.cms h5 {
+	font-size: .875rem;
+}
+
+/* Images */
+.cms img {
+	display: block;
+	margin-bottom: var(--spacing-medium);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+/* Links */
+.cms a {
+	color: var(--primary);
+	transition: var(--hover-transition);
+}
+
+.cms a:hover {
+	background-color: var(--highlight);
+	color: var(--black);
+}
+
+/* Lists */
+.cms ul, .cms ol, .cms li {
+	position: relative;
+}
+
+.cms ul, .cms ol {
+	margin-bottom: var(--spacing-medium);
+}
+
+.cms ul ul, .cms ol ol {
+	padding-left: var(--spacing-small);
+}
+
+.cms ul {
+	margin-left: 1.33rem;
+}
+
+.cms ul > li:before {
+	content: '✱';
+	left: -1.33rem;
+	position: absolute;
+	color: var(--primary);
+}
+
+.cms ol {
+	list-style: none;
+	margin-left: var(--spacing-medium);
+	counter-reset: i 0;
+}
+
+.cms ol > li:before {
+	font-weight: 800;
+	left: var(--spacing-medium);
+	margin-right: 1.33rem;
+	position: relative;
+	height: 100%;
+	content: counter(i);
+	counter-increment: i;
+	color: var(--primary);
+}
+
+/* Blockquotes */
+.cms blockquote {
+	background-color: var(--grey-1);
+	display: block;
+	border-radius: var(--border-radius);
+	padding: var(--spacing-medium);
+	color: var(--primary);
+	font-weight: 700;
+	font-size: 1.25rem;;
+	margin-bottom: var(--spacing-medium);
+}
+
+.cms blockquote p {
+	margin: 0;
+}

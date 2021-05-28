@@ -1,4 +1,5 @@
-import Alert from '../components/alert'
+// import Alert from '../components/alert'
+import Nav from '../components/nav'
 import Footer from '../components/footer'
 import Meta from '../components/meta'
 
@@ -7,7 +8,8 @@ export default function Layout({ preview, children }) {
     <>
       <Meta />
       <div className="min-h-screen">
-        <Alert preview={preview} />
+        {/* <Alert preview={preview} /> */}
+        <Nav />
         <main>{children}</main>
       </div>
       <Footer />
