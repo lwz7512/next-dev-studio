@@ -1,5 +1,6 @@
 ---
 title: "Values"
+subtitle: We grow coffee with great quality
 image: /img/about-jumbotron.jpg
 values:
   - heading: "Shade-grown coffee"

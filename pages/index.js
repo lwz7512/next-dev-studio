@@ -16,7 +16,7 @@ export default function Index({ homeData, posts }) {
     <>
       <Layout>
         <Head>
-          <title>NextJS Soft Studio {CMS_NAME}</title>
+          <title>Home | {CMS_NAME}</title>
         </Head>
         <Jumbotron 
           title={homeData.title}

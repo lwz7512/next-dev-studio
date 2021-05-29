@@ -6,7 +6,6 @@ export default function TwoUp({ intro, products }) {
       <div className="ph3 mw7 center">
         <h2 className="f2 b lh-title mb2">{intro.heading}</h2>
         <p className="mb4 mw6">{intro.text}</p>
-
         <div className="flex-ns mhn2-ns mb3">
           {
             products.map(p => (
@@ -17,7 +16,6 @@ export default function TwoUp({ intro, products }) {
             ))
           }
         </div>
-
         <div className="tc">
           <Link href="/products" >
             <a className="btn raise">See all products</a>

@@ -1,5 +1,6 @@
 ---
 title: Our Coffee
+subtitle: is the best coffee of the world
 type: products
 image: /img/products-jumbotron.jpg
 heading: What we offer
