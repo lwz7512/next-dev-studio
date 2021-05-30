@@ -2,7 +2,7 @@
 
 @2021/05/30
 
-Two years ago I built my studio [website](https://github.com/lwz7512/one-click-hugo-cms) using [one click hugo cms](https://github.com/netlify-templates/one-click-hugo-cms), now my tech stack switched to Nextjs, so I migrated that into a Nextjs version(in two days).
+Two years ago I built my studio [website](https://github.com/lwz7512/one-click-hugo-cms) using [one click hugo cms](https://github.com/netlify-templates/one-click-hugo-cms), now my tech stack switched to Nextjs, so I migrated that into a Nextjs version(in three days).
 
 ## Demo
 
