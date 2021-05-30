@@ -19,7 +19,7 @@ export default function ValuesPage({page}) {
           subtitle={page.subtitle}
           imageUrl={page.image}
         />
-        <div class="mw7 center ph3 pt4">
+        <div className="mw7 center ph3 pt4">
           {
             page.values.map((v, i) => (
               <MediaBlock 

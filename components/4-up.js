@@ -6,10 +6,12 @@ export default function FourUp({ heading, description, blurbs }) {
         <p className="mb4 mw6">{description}</p>
         <div className="flex-ns flex-wrap mhn2-ns mb3">
           {
-            blurbs.map(b => (
-              <div className="ph2-ns w-50-ns mb4" key={b.text}>
-                <img src={b.image} alt="" className="center db mb3 w-240" />
-                <p>{b.text}</p>
+            blurbs.map(p => (
+              <div className="ph2-ns w-50-ns mb4" key={p.text}>
+                <div className="flex bg-grey-1">
+                  <img src={p.image} alt="product image" className="center db mv3 w-240" />
+                </div>
+                <p>{p.text}</p>
               </div>
             ))
           }

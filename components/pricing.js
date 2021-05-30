@@ -27,7 +27,7 @@ export default function Pricing({heading, description, plans}) {
         <div className="flex-ns mhn2-ns mw7">
           {
             plans.map(p => (
-              <div className="w-33-ns ph2">
+              <div className="w-33-ns ph2" key={p.plan}>
                 <PriceItem 
                   plan={p.plan}
                   price={p.price}

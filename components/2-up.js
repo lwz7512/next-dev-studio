@@ -10,7 +10,9 @@ export default function TwoUp({ intro, products }) {
           {
             products.map(p => (
               <div key={p.text} className="ph2-ns w-50-ns">
-                <img src={p.image} alt="" className="center db mb3 w-240" />
+                <div className="flex bg-grey-1">
+                  <img src={p.image} alt="product image" className="center db mv3 w-240" />
+                </div>
                 <p>{p.text}</p>
               </div>
             ))
