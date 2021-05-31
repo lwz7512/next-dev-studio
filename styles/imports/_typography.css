@@ -35,6 +35,10 @@ strong {
   font-weight: var(--bold-font-weight);
 }
 
+.bold {
+  font-weight: var(--bold-font-weight);
+}
+
 em {
   font-style: italic;
 }

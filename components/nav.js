@@ -12,22 +12,27 @@ export default function Nav() {
       <img src="/img/logo.svg" alt="Kaldi logo" className="br0 db mb0 w-100"/>
       </a>
       <ul className="flex b grey-3">
-        <li class="products">
+        <li className="products">
           <Link href="/products">
             <a className="pa3 no-underline db">Products</a>
           </Link>
         </li>
-        <li class="values">
+        <li className="values">
           <Link href="/values">
             <a className="pa3 no-underline db">Values</a>
           </Link>
         </li>
-        <li class="post">
+        <li className="team">
+          <Link href="/team">
+            <a className="pa3 no-underline db">Team</a>
+          </Link>
+        </li>
+        <li className="post">
           <Link href="/post" >
             <a className="pa3 no-underline db">Blog</a>
           </Link>
         </li>
-        <li class="contact">
+        <li className="contact">
           <Link href="/contact">
             <a className="pa3 no-underline db">Contact</a>
           </Link>
