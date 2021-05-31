@@ -15,7 +15,7 @@ export default function ContacePage({page}) {
         </Head>
         <div className="ph3 bg-off-white">
           <div className="center mw6 pv3">
-            <img src={page.data.logo} alt="" className="db w4 center pv4" />
+            <img src={page.data.logo} alt="" className="db w5 center pv4" />
             <div dangerouslySetInnerHTML={{ __html: page.content }} /> 
             <div className="flex-ns mv4">
             {
