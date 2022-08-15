@@ -53,7 +53,7 @@ export default function ProductsPage({page}) {
 }
 
 export async function getStaticProps() {
-  const page = getPageData('products')
+  const page = getPageData('services')
   return {
     props: { page },
   }

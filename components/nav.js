@@ -19,7 +19,7 @@ export default function Nav({logo}) {
             return (
               <li className={mcls} key={m.page}>
                 <Link href={m.url}>
-                  <a className="pa3 no-underline db">{m.page}</a>
+                  <a target={m.target} className="pa3 no-underline db">{m.page}</a>
                 </Link>
               </li>
             )

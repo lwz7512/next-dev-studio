@@ -2,24 +2,21 @@
   "logo": "/img/logo.svg",
   "menus": [
     {
-      "page": "Products",
-      "url": "/products"
+      "page": "Call or Text to Book (555) 555-5555",
+      "url": "tel:5555555555"
     },
     {
-      "page": "Values",
-      "url": "/values"
+      "page": "Book Online",
+      "target": "_blank",
+      "url": "https://squareup.com/appointments/book/afwc68r654y6i1/L8VCJCD01JR06/services"
     },
     {
-      "page": "Team",
+      "page": "Our Services",
+      "url": "/services"
+    },
+    {
+      "page": "Our Team",
       "url": "/team"
-    },
-    {
-      "page": "Blog",
-      "url": "/post"
-    },
-    {
-      "page": "Contact",
-      "url": "/contact"
     }
   ]
 }
