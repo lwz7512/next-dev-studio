@@ -3,9 +3,8 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Jumbotron from '../components/jumbotron'
 import ShortText from '../components/short-text'
-import TwoUp from '../components/2-up'
-import TextAndImage from '../components/text-and-image'
-import Blog4Home from '../components/blog-4-home'
+import TwoUpButton from '../components/2-up-button'
+import TwoUpNoButton from '../components/2-up-no-button'
 
 import { getHomePageData, getPosts4Home } from '../lib/api'
 import { CMS_NAME } from '../lib/constants'
@@ -27,19 +26,17 @@ export default function Index({ homeData, posts }) {
           heading={homeData.blurb.heading}
           text={homeData.blurb.text}
         />
-        <TwoUp 
+        <TwoUpNoButton 
           intro={homeData.intro}
-          products={homeData.products}
+          products={homeData.products1}
         />
-        <TextAndImage 
-          heading={homeData.values.heading}
-          text={homeData.values.text}
-          buttonText={homeData.values.buttonText}
-          buttonLink={homeData.values.buttonLink}
-          image={homeData.values.image}
+        <TwoUpNoButton 
+          intro=""
+          products={homeData.products2}
         />
-        <Blog4Home 
-          posts={posts}
+        <TwoUpButton 
+          intro=""
+          products={homeData.products3}
         />
       </Layout>
     </>

@@ -21,17 +21,15 @@ export default function Footer() {
           <div>
             <h3 className="f4 b lh-title mb1 primary">Serving Torrance and South Bay</h3>
             <ul className="mb3">
-              <li><a href="tel:5555555555" className="link">Call or Text to Book<br />(555) 555-5555</a></li>
+              <li><a href="tel:3239447238" className="link">Call or Text to Book<br />(323) 944-7238</a></li>
               <li><a target="_blank" href="https://squareup.com/appointments/book/afwc68r654y6i1/L8VCJCD01JR06/services" className="link">Book Online</a></li>
             </ul>
           </div>
           <div>
             <h3 className="f4 b lh-title mb2 primary">Social media</h3>
             <ul className="mhn2">
-              <SocialIcon link="#" iconPath="/img/icons-facebook.svg" />
-              <SocialIcon link="#" iconPath="/img/icons-twitter.svg" />
-              <SocialIcon link="#" iconPath="/img/icons-instagram.svg" />
-              <SocialIcon link="#" iconPath="/img/icons-vimeo.svg" />
+              {/* <SocialIcon link="#" iconPath="/img/icons-facebook.svg" /> */}
+              <SocialIcon link="https://www.instagram.com/irondetails/" iconPath="/img/icons-instagram.svg" />
             </ul>
           </div>
         </div>

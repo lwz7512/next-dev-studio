@@ -18,12 +18,10 @@ const PriceItem = ({plan, price, description, items }) => (
   </div>
 )
 
-export default function Pricing({heading, description, plans}) {
+export default function PricingBlocksOnly({plans}) {
   return (
     <div className="bg-off-white pv4 ph3">
       <div className="mw7 center">
-        <h2 className="f2 b lh-title mb3">{heading}</h2>
-        <p className="mw6">{description}</p>
         <div className="flex-ns mhn2-ns mw7">
           {
             plans.map(p => (
