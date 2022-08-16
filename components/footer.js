@@ -22,7 +22,7 @@ export default function Footer() {
             <h3 className="f4 b lh-title mb1 primary">Serving Torrance and South Bay</h3>
             <ul className="mb3">
               <li><a href="tel:3239447238" className="link">Call or Text to Book<br />(323) 944-7238</a></li>
-              <li><a target="_blank" href="https://squareup.com/appointments/book/afwc68r654y6i1/L8VCJCD01JR06/services" className="link">Book Online</a></li>
+              <li><a target="_blank" rel="noreferrer" href="https://squareup.com/appointments/book/afwc68r654y6i1/L8VCJCD01JR06/services" className="link">Book Online</a></li>
             </ul>
           </div>
           <div>
