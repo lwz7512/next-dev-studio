@@ -5,7 +5,7 @@
   * Run `npm install`.
   * To run rtdl's website locally in dev mode, run `npm run dev`. You can 
     view the site at [http://localhost:3000/](http://localhost:3000/).
-  * To build rtdl's wesite locally to the `/out` folder, run `npm run build-prod`.
+  * To build rtdl's wesite locally to the `/.next` folder, run `npm run build`.
 
 @2021/05/30
 
