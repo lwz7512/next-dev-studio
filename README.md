@@ -1,7 +1,7 @@
 # A small business website for Iron Detailing
 Iron Detailing is a mobile automotive detailing service based out or Los Angeles, CA. It serves Torrance, South Bay, and surrounding areas.
   
-You can preview this site at [irondetailing.netlify.app/](https://irondetailing.netlify.app/).
+You can preview this site at [irondetailing.netlify.app](https://irondetailing.netlify.app/).
 
 
 ## How to Use
