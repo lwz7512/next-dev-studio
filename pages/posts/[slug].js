@@ -14,8 +14,8 @@ export default function Post({ post }) {
         <title>{post.title} | {CMS_NAME}</title>
       </Head>
       <article className="mw6 center ph3 pv4">
-        <h1 class="f2 lh-title b mb3">{post.title}</h1>
-        <div class="flex justify-between grey-3">
+        <h1 className="f2 lh-title b mb3">{post.title}</h1>
+        <div className="flex justify-between grey-3">
           <p>
             <DateFormatter
               dateString={post.date}
@@ -23,7 +23,7 @@ export default function Post({ post }) {
           </p>
           {/* <p>Read in ? minutes</p> */}
         </div>
-        <div class="cms mw6">
+        <div className="cms mw6">
           <p>{post.description}</p>
           {post.image &&
             <img src={post.image} alt={post.title} />

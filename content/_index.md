@@ -1,23 +1,28 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Iron Detailing"
+subtitle: "Mobile automotive detailing serving Torrance, South Bay, and surrounding areas. Locally owned & operated."
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: "What does Iron Detailing do?"
+    text: "We offer mobile automotive detailing. We'll bring our supplies and equipment to wherever you are to service your car, truck, van, bus, train, or whatever 
+    vehicle you have. All we need is electrical and hose outlets, and we can service your vehicle."
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    buttonText: Read more
-    buttonLink: /values
-    image: img/home-about-section.jpg
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    heading: "Services we offer"
+    text: "We offer several high quality detailing packages to help you clean, decontaminate, and protect your vehicle."
+products1:
+    - heading: "Steel Detail"
+      text: "Full detail inside and out, 2-step paint decontamination, tire shine, plastic and vinyl recovery, and ceramic hand wax application. Optional up-charge for interior shampoo."
+    - heading: "Iron Detail"
+      text: "Full detail inside and out, paint decontamination, tire shine, plastic and vinyl recovery, and hand wax application. Optional up-charge for interior shampoo."
+products2:
+    - heading: "Carbon Detail"
+      text: "Full detail inside and out, paint decontamination, tire shine, plastic and vinyl recovery, and spray wax application. Optional up-charge for interior shampoo."
+    - heading: "Express Detail"
+      text: "Regular car wash, a QUICK vacuum, and a QUICK interior wipe down."
+products3:
+    - heading: "Exterior Detail"
+      text: "Full detail outside ONLY, paint decontamination, plastic and Vinyl recovery, and spray wax application. Optional up-charges for hand wax upgrade and paint decontamination upgrade."
+    - heading: "Interior Detail"
+      text: "Full detail inside ONLY! Optional up-charge for interior shampoo. "
 ---
 
